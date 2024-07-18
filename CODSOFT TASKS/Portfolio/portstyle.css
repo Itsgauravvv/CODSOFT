@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    color: black;
+    background: url(back.jpg) no-repeat center center/cover;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+header{
+    background-color: purple;
+    color: whitesmoke;
+    text-align: center;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    text-align: right;
+    position: fixed;
+    width: 100%;
+}
+nav ul li{
+    padding-right: 20px;
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    transition: 0.4s;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+header p{
+    margin: 8px 0;
+}
+
+section{
+    padding: 80px;
+    text-align: left;
+}
+
+#abt img{
+    border-radius: 50%;
+    width: 275px;
+    height: 350px;
+    float: right;
+}
+
+#skills ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+#skills li{
+    display: inline-block;
+    font-size: xx-large;
+    background-color: beige;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 5px;
+}
+.project{
+    margin: 32px 0;
+}
+
+.project img{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    margin: 10px;
+    border-radius: 30px;
+    float: right;
+}
+
+footer{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.download{
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.download:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}

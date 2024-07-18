@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, h1, h2, h3, p, ul, li, a, button{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    line-height: 1.6;
+    background-color: black;
+}
+
+header{
+    background: black;
+    padding: 10px 0;
+    text-align: right;
+    margin-right: 20px;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:royalblue;
+    transition:0.4s;
+}
+
+#home{
+    background: url(Background.jpg) no-repeat center center/cover;
+    color: white;
+    font-style: italic;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1{
+    font-size: 45px;
+}
+
+#home p{
+    font-size: 24px;
+    margin: 20px;
+}
+
+#home button{
+    padding: 10px;
+    font-size: 15px;
+    background: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#home button:hover{
+    color:black;
+    background: white;
+    transition:0.4s;
+}
+#abt p{
+    color: bisque;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+#abt h2{
+    color: greenyellow;
+}
+#abt img{
+    object-position: right;
+}
+#course h2{
+    color: yellow;
+}
+section {
+    padding: 50px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.cl{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course{
+    flex: 1px;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.course h3{
+    color: white;
+}
+.course p{
+    color:thistle;
+}
+
+footer{
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
